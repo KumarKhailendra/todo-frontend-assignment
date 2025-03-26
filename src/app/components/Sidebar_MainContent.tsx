@@ -243,9 +243,9 @@ const Sidebar_MainContent: React.FC = () => {
                                 type="text"
                                 value={title}
                                 onChange={(e) => setTitle(e.target.value)}
-                                className="text-4xl font-semibold text-[#1b1b1b] border-none outline-none"
+                                className="text-4xl font-semibold text-[#1b1b1b] border-none outline-none w-[60%]"
                             />
-                            <div className="flex gap-4">
+                            <div className="flex gap-4 w-[40%] justify-end">
                                 <button
                                     onClick={handleSaveChanges}
                                     disabled={isLoading}
